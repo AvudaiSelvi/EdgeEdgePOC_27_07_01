@@ -1,6 +1,17 @@
 version: "1.0"
 info:
   model: int-scaffold
+services:
+- serviceName: edge.edgepoc_27_07_01.integrations:testEdge
+  packages:
+  - name: EdgeEdgePOC_27_07_01
+    version: "1.0"
+  - name: origin
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.396
 packages:
 - name: EdgeEdgePOC_27_07_01
   gitServerName: SelviGitHub
