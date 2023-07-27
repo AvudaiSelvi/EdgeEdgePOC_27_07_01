@@ -1,0 +1,16 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: EdgeEdgePOC_27_07_01
+  gitServerName: SelviGitHub
+  gitUrl: https://github.com/AvudaiSelvi/EdgeEdgePOC_27_07_01
+  gitUsername: AvudaiSelvi
+  gitToken: edge.scaffolding.EdgeEdgePOC_27_07_01.SelviGitHub.gitToken
+  gitBranch: master
+- name: origin
+  gitServerName: SelviGitHub
+  gitUrl: https://github.com/AvudaiSelvi
+  gitUsername: AvudaiSelvi
+  gitToken: edge.scaffolding.origin.SelviGitHub.gitToken
+  gitBranch: main
